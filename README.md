@@ -48,14 +48,20 @@ To compile either version, ensure you are using a POSIX-compatible environment (
 ### C Version
 ```bash
 cd matrixC/
-make
+g++ -std=c++11 -o matrix_program main.c Matrix.c
+./matrix_program
+
 ```
 
 ### C++ Version
 ```bash
 cd matrixC++/
-make
+g++ -std=c++11 -o matrix_program main.cpp Matrix.cpp
+./matrix_program
+
 ```
+
+You can also use `make`.
 
 Each Makefile also supports:
 
