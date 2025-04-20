@@ -43,17 +43,17 @@ Each version of the project is stored within its own directory, `matrixC` and `m
 
 ## BUILD INSTRUCTIONS
 
-To compile either version, ensure you are using a POSIX-compatible environment (Linux/macOS/WSL), and run these commands within the designated subdirectories.
+To compile either version, ensure you are using a POSIX-compatible environment (Linux/macOS/WSL).
 
 ### C Version
 ```bash
-cd c_version/
+cd matrixC/
 make
 ```
 
 ### C++ Version
 ```bash
-cd cpp_version/
+cd matrixC++/
 make
 ```
 
